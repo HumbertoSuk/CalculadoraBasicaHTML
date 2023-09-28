@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6b63ff; /* Cambiamos el color de fondo a morado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff; /* Cambiamos el color de fondo del contenedor a blanco */
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    background-color: #ccc; /* Cambiamos el color de fondo del display a gris claro */
+    color: #333; /* Cambiamos el color del texto a gris oscuro */
+    font-size: 24px;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 4px; /* Agregamos bordes redondeados al display */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6b63ff; /* Cambiamos el color de fondo de los botones a morado */
+    color: #fff; /* Cambiamos el color del texto de los botones a blanco */
+    transition: background-color 0.3s; /* Agregamos una transición de color al botón al pasar el mouse sobre él */
+}
+
+button:hover {
+    background-color: #524bd4; /* Cambiamos el color de fondo al pasar el mouse sobre el botón */
+}
