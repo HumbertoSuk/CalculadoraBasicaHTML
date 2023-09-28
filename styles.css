@@ -19,6 +19,14 @@ body {
     align-items: center;
 }
 
+
+.operator-display {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #888; 
+}
+
+
 .display {
     background-color: #ccc; /* Cambiamos el color de fondo del display a gris claro */
     color: #333; /* Cambiamos el color del texto a gris oscuro */
